@@ -1,5 +1,5 @@
-1000 REM read csv file organised in lines (with CR LF terminator)
-1005 LET PN$="READCSV.BAS":LET CF=0: LET D=0
+1000 REM read data from BASIC file with DATA instructions
+1005 LET PN$="COMPSTAT.BAS":LET CF=0: LET D=0
 1010 REM OPEN PROGRAM1 FILE (R)
 1020 OPEN "I",1,"SSTAT.BAS"
 1030 REM OPEN DATA FILE (R)
