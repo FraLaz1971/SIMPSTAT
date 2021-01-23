@@ -1,0 +1,33 @@
+SIMPSTAT is a small educational project
+written in standard BASIC 
+that perform and prints on the terminal
+simple statistics operations
+on a data set contained in a BASIC source file.
+The main program is COMPSTAT.BAS, it
+should be ran in a BASIC interpreter.
+
+A source file SSTAT.BAS is combined appending
+the lines of BASIC source file STATDATA.BAS 
+that contains the data to be processed,
+included as first data, the size of array
+to be processed as only metadata value.
+
+This has been tested to work correctly in
+pcbasic (gwbasic), qb64 (qbasic) and bwbasic.
+
+Running the source file bCS.BAS the same will
+be performed on brandy (BBC BASIC) environment.
+A different program has been developed because
+file I/O instructions are incompatible between
+the 2 groups of BASIC dialects.
+
+
+SIMPSTAT
+├── COMPSTAT.BAS
+├── README
+├── SSTAT.BAS
+├── STATDATA.BAS
+├── bCS.BAS
+└── statdata.csv
+
+0 directories, 5 files
